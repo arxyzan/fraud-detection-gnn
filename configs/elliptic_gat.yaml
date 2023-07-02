@@ -1,0 +1,23 @@
+name: elliptic_gat
+dataset:
+  features_path: "data/elliptic/elliptic_txs_features.csv"
+  edges_path: "data/elliptic/elliptic_txs_edgelist.csv"
+  classes: "data/elliptic/elliptic_txs_classes.csv"
+
+model:
+  num_heads: 2
+  input_dim: ???
+  hidden_dim: 128
+  output_dim: 1
+  dropout: 0.5
+
+train:
+  dataset: elliptic
+  model: gat
+  num_epochs: 100
+  device: cuda
+  lr: 0.01
+  weight_decay: 1e-5
+  print_freq: 10
+  save_dir: weights/
+  save_freq: 100
