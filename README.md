@@ -46,4 +46,4 @@ python visualize.py --config configs/elliptic_gat.yaml --step 30 --weights_file 
 
 ## About the project
 This is my final project for the course **Complex Networks** during my Masters' in **Shahid Beheshti University** instructed by **Dr. Sadegh Ali Akbari** (Spring 2023). 
-I've also written a Persian blog post on this project [here]()
+I've also written a Persian blog post on this project [here](https://virgool.io/@arxyzan/fraud-detection-gnn-iywqcbifqukr)
